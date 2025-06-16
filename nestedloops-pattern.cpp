@@ -87,4 +87,29 @@ int main() {
 
     return 0;
 }   
-// 🔲 4. Checkerboard Pattern
+// 🔲 4. Checkerboard Pattern   
+// This program prints a checkerboard pattern using nested loops.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows, cols;
+    cout << "Enter number of rows and columns: ";
+    cin >> rows >> cols;
+
+    for (int i = 1; i <= rows; i++) {
+        // Add space to every alternate row
+        if (i % 2 == 0) {
+            cout << " ";
+        }
+
+        for (int j = 1; j <= cols; j++) {
+            cout << "* ";
+        }
+
+        cout << endl;
+    }
+
+    return 0;
+}
