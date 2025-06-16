@@ -130,10 +130,6 @@ g++ if_even.cpp -o if_even
 This project is free to use for educational purposes.
 ```
 
----
-
-Would you like me to export this as a **`.md` file** or include all the source files in a downloadable ZIP for classroom distribution?
-
 Summary of Control Structures Covered:
 Structure	Example Use
 if	Basic condition check
