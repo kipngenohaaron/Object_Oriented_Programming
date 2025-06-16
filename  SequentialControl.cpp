@@ -146,3 +146,25 @@ int main() {
 
     return 0;
 }
+// 🔹 8. Palindrome Check   
+#include <iostream>
+using namespace std;
+int main() {
+    string str, reversedStr;
+
+    cout << "Enter a string: ";
+    cin >> str;
+
+    // Reverse the string
+    reversedStr = string(str.rbegin(), str.rend());
+
+    // Check if the original string is equal to the reversed string
+    if (str == reversedStr) {
+        cout << str << " is a palindrome." << endl;
+    } else {
+        cout << str << " is not a palindrome." << endl;
+    }
+
+    return 0;
+}
+// 🔹 9. Leap Year Check    
