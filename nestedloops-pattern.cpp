@@ -153,3 +153,64 @@ int main() {
 
     return 0;
 }
+// 🔺 7. Pascal’s Triangle  
+// This program prints Pascal's Triangle using nested loops.
+#include <iostream>
+using namespace std;   
+int main() {
+    int n;
+    cout << "Enter the number of rows for Pascal's Triangle: ";
+    cin >> n;
+
+    for (int i = 0; i < n; i++) {
+        // Print leading spaces
+        for (int j = 0; j < n - i - 1; j++) {
+            cout << " ";
+        }
+
+        int num = 1; // First number in each row
+        for (int j = 0; j <= i; j++) {
+            cout << num << " ";
+            num = num * (i - j) / (j + 1); // Calculate next number in the row
+        }
+        cout << endl; // Move to the next line after each row
+    }
+
+    return 0;
+}
+
+// 🔺 7. Pascal's Triangle Pattern
+      1
+     1 1
+    1 2 1
+   1 3 3 1
+  1 4 6 4 1
+#include <iostream>
+using namespace std;
+
+int factorial(int n) {
+    int f = 1;
+    for (int i = 1; i <= n; i++)
+        f *= i;
+    return f;
+}
+
+int combination(int n, int r) {
+    return factorial(n) / (factorial(r) * factorial(n - r));
+}
+
+int main() {
+    int rows;
+    cout << "Enter number of rows: ";
+    cin >> rows;
+
+    for (int i = 0; i < rows; i++) {
+        for (int s = 0; s < rows - i - 1; s++) cout << " ";
+        for (int j = 0; j <= i; j++) {
+            cout << combination(i, j) << " ";
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
