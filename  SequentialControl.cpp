@@ -77,3 +77,72 @@ int main() {
 
     return 0;
 }
+// 🔹 5. Fibonacci Series
+#include <iostream>
+using namespace std;
+int main() {
+    int n, t1 = 0, t2 = 1, nextTerm;
+
+    cout << "Enter the number of terms in Fibonacci series: ";
+    cin >> n;
+
+    cout << "Fibonacci Series: ";
+
+    for (int i = 1; i <= n; ++i) {
+        cout << t1 << " "; // Print the current term
+        nextTerm = t1 + t2; // Calculate the next term
+        t1 = t2; // Update t1 to the next term
+        t2 = nextTerm; // Update t2 to the next term
+    }
+    cout << endl;
+
+    return 0;
+}
+// 🔹 6. Prime Number Check 
+// This program checks if a number is prime or not. 
+
+#include <iostream>
+using namespace std;
+int main() {
+    int number, i;
+    bool isPrime = true;
+
+    cout << "Enter a positive integer: ";
+    cin >> number;
+
+    if (number <= 1) {
+        cout << number << " is not a prime number." << endl;
+        return 0;
+    }
+
+    for (i = 2; i <= number / 2; ++i) {
+        if (number % i == 0) {
+            isPrime = false; // Not a prime number
+            break;
+        }
+    }
+
+    if (isPrime)
+        cout << number << " is a prime number." << endl;
+    else
+        cout << number << " is not a prime number." << endl;
+
+    return 0;
+}
+// 7. Convert Minutes to Hours and Minutes
+#include <iostream>
+using namespace std;
+int main() {
+    int totalMinutes, hours, minutes;
+
+    cout << "Enter total minutes: ";
+    cin >> totalMinutes;
+
+    // Calculate hours and remaining minutes
+    hours = totalMinutes / 60;
+    minutes = totalMinutes % 60;
+
+    cout << totalMinutes << " minutes is equal to " << hours << " hours and " << minutes << " minutes." << endl;
+
+    return 0;
+}
