@@ -89,6 +89,10 @@ int main() {
 }   
 // 🔲 4. Checkerboard Pattern   
 // This program prints a checkerboard pattern using nested loops.
+* * * * *
+ * * * * 
+* * * * *
+ * * * * 
 
 #include <iostream>
 using namespace std;
