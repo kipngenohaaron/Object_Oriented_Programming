@@ -117,3 +117,15 @@ int main() {
 
     return 0;
 }
+// 💎 6. Diamond Star Pattern
+// This program prints a diamond pattern using nested loops.
+// Example output for n = 5:
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
