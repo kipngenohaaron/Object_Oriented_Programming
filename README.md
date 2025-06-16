@@ -1,141 +1,142 @@
-# Object_Oriented_Programming
+# 🎯 C++ Control Structures & Pattern Programs
 
-# C++ Control Structure Programs
-
-This collection includes beginner-friendly C++ programs that demonstrate how to use **control structures** such as `if`, `if-else`, `else-if`, `switch`, `for`, `while`, and `do-while`.
-
-## 📁 Program List
-
-### 1. ✅ `if` Statement – Even Number Checker
-- **File:** `if_even.cpp`
-- **Description:** Checks whether a given number is even.
-- **Control Structure Used:** `if`
+> A well-organized collection of C++ programs covering **control structures**, **loops**, **decision-making**, and **pattern printing**.
 
 ---
 
-### 2. ✅ `if-else` Statement – Positive or Negative
-- **File:** `if_else_positive.cpp`
-- **Description:** Checks if a number is positive or negative.
-- **Control Structure Used:** `if-else`
+## 👨‍💻 Developer Information
+
+**Name:** Kipngenoh Aaron  
+**Title:** The Software Developer  
+📞 **Phone:** 0724828197  
+📧 **Email:** [kipngenohaaron@gmail.com](mailto:kipngenohaaron@gmail.com)  
+🔗 **GitHub:** [github.com/kipngenohaaron/Object_Oriented_Programming](https://github.com/kipngenohaaron/Object_Oriented_Programming)
 
 ---
 
-### 3. ✅ `else-if` Ladder – Grade Evaluation
-- **File:** `else_if_grades.cpp`
-- **Description:** Assigns a grade based on numeric marks (0–100).
-- **Control Structure Used:** `if-else-if`
+## 🧠 C++ Control Structure Programs
+
+### 1. **Decision-Making (if, if-else, else-if)**
+
+| # | Program | Description | File |
+|--|---------|-------------|------|
+| 1 | Even Number Checker | Checks if a number is even | `if_even.cpp` |
+| 2 | Positive/Negative | Checks if number is +ve or -ve | `if_else_positive.cpp` |
+| 3 | Largest of 3 Numbers | Finds the largest using `else-if` | `largest_of_three.cpp` |
+| 4 | Grading System | Assigns grade using marks | `else_if_grades.cpp` |
+| 5 | Electricity Bill Calculator | Calculates bill based on units | `electricity_bill.cpp` |
+
+### 2. **Switch-Case Statements**
+
+| # | Program | Description | File |
+|--|---------|-------------|------|
+| 1 | Day of the Week | Maps number to weekday | `switch_day.cpp` |
+| 2 | Letter Grade Switch | Maps A/B/C... to remarks | `switch_grades.cpp` |
+| 3 | School Grading Menu | Nested switch to evaluate students | `nested_switch_school.cpp` |
+| 4 | Mini Calculator | Menu-based calculator using switch | `switch_calculator.cpp` |
 
 ---
 
-### 4. ✅ `switch` Statement – Day of the Week
-- **File:** `switch_day.cpp`
-- **Description:** Prints the day name for a given number (1–7).
-- **Control Structure Used:** `switch`
+## 🔄 Looping Structures in Practice
+
+### 3. **Loops (`for`, `while`, `do-while`)**
+
+| # | Program | Description | File |
+|--|---------|-------------|------|
+| 1 | Count 1 to 10 | Uses `for` loop | `for_loop_count.cpp` |
+| 2 | Sum Until Zero | Accepts numbers until 0 entered | `while_sum.cpp` |
+| 3 | Simple Authentication | `do-while` loop for login | `do_while_login.cpp` |
+| 4 | Factorial | Finds factorial using loop | `factorial_loop.cpp` |
+| 5 | Fibonacci Series | First `n` Fibonacci numbers | `fibonacci_loop.cpp` |
+| 6 | Prime Number Checker | Detects prime using loop | `prime_checker.cpp` |
 
 ---
 
-### 5. ✅ `for` Loop – Numbers from 1 to 10
-- **File:** `for_loop_numbers.cpp`
-- **Description:** Prints numbers from 1 to 10.
-- **Control Structure Used:** `for`
+## 🎨 Pattern Programs Using Nested Loops
+
+### 4. **Basic Pattern Programs**
+
+| # | Pattern | Description | File |
+|--|---------|-------------|------|
+| 1 | Pyramid Star | Centered triangle | `pyramid_star.cpp` |
+| 2 | Number Triangle | Increases with row number | `number_triangle.cpp` |
+| 3 | Hollow Rectangle | Frame of stars | `hollow_rectangle.cpp` |
+| 4 | Checkerboard | Alternating star pattern | `checkerboard.cpp` |
+
+### 5. **Advanced Pattern Programs**
+
+| # | Pattern | Description | File |
+|--|---------|-------------|------|
+| 1 | Diamond Pattern | Symmetrical diamond of stars | `diamond_star.cpp` |
+| 2 | Pascal’s Triangle | Mathematical triangle using combinations | `pascals_triangle.cpp` |
+| 3 | Butterfly Pattern | Mirrored star wings | `butterfly_pattern.cpp` |
+| 4 | Sandglass Pattern | Inverted + pyramid star | `sandglass_pattern.cpp` |
+| 5 | Zig-Zag Number Wave | Alternating diagonal wave of numbers | `zigzag_wave.cpp` |
 
 ---
 
-### 6. ✅ `while` Loop – Sum Until Zero
-- **File:** `while_sum.cpp`
-- **Description:** Accepts numbers and sums them until the user enters 0.
-- **Control Structure Used:** `while`
-
----
-
-### 7. ✅ `do-while` Loop – Password Authentication
-- **File:** `do_while_password.cpp`
-- **Description:** Prompts user for a password until correct one is entered.
-- **Control Structure Used:** `do-while`
-
----
-
-### 8. ✅ `nested switch` – School Menu System
-- **File:** `nested_switch_school.cpp`
-- **Description:** Demonstrates a nested menu for students and staff.
-- **Control Structure Used:** `nested switch`
-
----
-
-### 9. ✅ `switch` Grade Letter System
-- **File:** `switch_grades.cpp`
-- **Description:** Prints comments based on letter grades (A–F).
-- **Control Structure Used:** `switch`
-
----
-
-### 10. ✅ Electricity Bill Calculator
-- **File:** `electricity_bill.cpp`
-- **Description:** Calculates electricity bill using tiered rates.
-- **Control Structures Used:** `if-else`, `switch`
-
----
-
-## 💻 How to Compile and Run
-
-Make sure you have `g++` installed. Then, use the following command in your terminal:
+## 🔧 Compilation Instructions
 
 ```bash
-g++ filename.cpp -o program
-./program
+g++ filename.cpp -o output
+./output
 ```
 
-For example:
+_Example:_
 
 ```bash
-g++ if_even.cpp -o if_even
-./if_even
+g++ pyramid_star.cpp -o pattern
+./pattern
 ```
 
 ---
 
-## 🎯 Learning Objectives
+## 🎓 Learning Objectives
 
-- Understand and apply different types of control structures in C++
-- Improve problem-solving skills using conditionals and loops
-- Practice real-world scenarios like grading and billing systems
-
----
-
-## 📦 Requirements
-
-- C++ compiler (`g++`)
-- Basic understanding of C++ syntax
+- ✔️ Apply all conditional control structures (`if`, `else-if`, `switch`)
+- ✔️ Use all loop types (`for`, `while`, `do-while`) effectively
+- ✔️ Create classic and advanced patterns using nested loops
+- ✔️ Solve real-world tasks (grading, billing, authentication)
 
 ---
 
-## 📚 Recommended Tools
+## 📂 Project Structure Recommendation
 
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Code::Blocks](http://www.codeblocks.org/)
-- [OnlineGDB](https://www.onlinegdb.com/online_c++_compiler)
-
----
-
-## 👩‍🏫 Ideal For
-
-- High school & college programming classes
-- Self-study or bootcamp practice
-- Exam prep and revision worksheets
-
----
-
-## 📝 License
-
-This project is free to use for educational purposes.
+```
+project/
+│
+├── decision_making/
+│   ├── if_even.cpp
+│   ├── if_else_positive.cpp
+│   └── else_if_grades.cpp
+│
+├── loops/
+│   ├── factorial_loop.cpp
+│   ├── fibonacci_loop.cpp
+│   └── prime_checker.cpp
+│
+├── switch_cases/
+│   ├── switch_day.cpp
+│   ├── nested_switch_school.cpp
+│   └── electricity_bill.cpp
+│
+├── patterns_basic/
+│   ├── pyramid_star.cpp
+│   ├── number_triangle.cpp
+│   └── hollow_rectangle.cpp
+│
+├── patterns_advanced/
+│   ├── diamond_star.cpp
+│   ├── pascals_triangle.cpp
+│   ├── butterfly_pattern.cpp
+│   └── sandglass_pattern.cpp
+│
+└── README.md
 ```
 
-Summary of Control Structures Covered:
-Structure	Example Use
-if	Basic condition check
-if-else	Binary decision
-else-if	Multi-branch decision
-switch	Fixed value-based decisions
-for	Known count loops (1 to 10)
-while	Input-dependent iteration
-do-while	Run at least once (e.g., password input)
+---
+
+## 📜 License
+
+Free and open for educational use. Attribution appreciated but not required.
+
