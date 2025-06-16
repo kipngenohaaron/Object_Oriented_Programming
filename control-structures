@@ -1,0 +1,160 @@
+
+## 🔧 What Are Control Structures?
+
+**Control structures** are the building blocks that **control the flow** of execution in a program — they decide:
+
+- **Which statements to execute**
+- **How many times to execute them**
+- **Under what conditions to make decisions**
+
+---
+
+## ✅ Types of Control Structures in C++
+
+### 1. **Sequential Control**
+- **Default behavior**: Executes statements **line by line** in the order they appear.
+  
+```cpp
+cout << "Start Program";
+cout << "This runs next";
+cout << "Then this";
+```
+
+---
+
+### 2. **Decision-Making Structures (Selection)**
+
+These control the program's path based on conditions.
+
+#### a) `if` Statement
+
+Executes a block **only if the condition is true**.
+
+```cpp
+if (age > 18) {
+    cout << "You are an adult.";
+}
+```
+
+#### b) `if-else` Statement
+
+Executes one block if the condition is true, otherwise another.
+
+```cpp
+if (mark >= 50) {
+    cout << "Pass";
+} else {
+    cout << "Fail";
+}
+```
+
+#### c) `else-if` Ladder
+
+Used to check **multiple conditions**.
+
+```cpp
+if (mark >= 80) {
+    cout << "Grade A";
+} else if (mark >= 60) {
+    cout << "Grade B";
+} else {
+    cout << "Grade C";
+}
+```
+
+#### d) `switch` Statement
+
+Used when you have **multiple constant values** to compare.
+
+```cpp
+int choice;
+cin >> choice;
+
+switch(choice) {
+    case 1: cout << "Tea"; break;
+    case 2: cout << "Coffee"; break;
+    default: cout << "Invalid Choice";
+}
+```
+
+---
+
+### 3. **Looping Structures (Iteration)**
+
+Used to **repeat a block of code**.
+
+#### a) `for` Loop
+
+Used when you know how many times to repeat.
+
+```cpp
+for (int i = 1; i <= 5; i++) {
+    cout << i << " ";
+}
+```
+
+#### b) `while` Loop
+
+Checks condition **before** each iteration.
+
+```cpp
+int i = 1;
+while (i <= 5) {
+    cout << i << " ";
+    i++;
+}
+```
+
+#### c) `do-while` Loop
+
+Executes block **at least once**, then checks the condition.
+
+```cpp
+int i = 1;
+do {
+    cout << i << " ";
+    i++;
+} while (i <= 5);
+```
+
+---
+
+### 4. **Nested Control Structures**
+
+You can place one control structure **inside another**.
+
+#### Example: Nested `if`
+
+```cpp
+if (score >= 50) {
+    if (score >= 80) {
+        cout << "Excellent";
+    } else {
+        cout << "Good";
+    }
+}
+```
+
+#### Example: Nested `for` Loop
+
+Used in pattern programs:
+
+```cpp
+for (int i = 1; i <= 3; i++) {
+    for (int j = 1; j <= i; j++) {
+        cout << "* ";
+    }
+    cout << endl;
+}
+```
+
+---
+
+## 🎯 Summary Table
+
+| Control Type | Structures |
+|--------------|------------|
+| Sequential   | Line by line |
+| Selection    | `if`, `if-else`, `else-if`, `switch` |
+| Iteration    | `for`, `while`, `do-while` |
+| Nested       | Nested ifs, loops, switch |
