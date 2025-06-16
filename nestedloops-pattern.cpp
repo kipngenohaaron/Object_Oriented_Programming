@@ -1,3 +1,4 @@
+// ⭐ 1. Pyramid Star Pattern
 // This program prints a pyramid pattern using nested loops.
 // The number of rows in the pyramid is determined by user input.
 // Example output for n = 5:
@@ -27,7 +28,7 @@ int main() {
 
     return 0;
 }
-// Number Triangle Pattern
+// 🔢 2. Number Triangle Pattern
 // This program prints a number triangle pattern using nested loops.
 1
 12
@@ -86,3 +87,4 @@ int main() {
 
     return 0;
 }   
+// 🔲 4. Checkerboard Pattern
